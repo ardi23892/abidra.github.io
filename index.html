@@ -7,6 +7,15 @@
       <meta name="description" content="">
       <meta name="author" content="Abid, Ardi, Delon, Michael">
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <style>
+         /* custom style */
+         .custom-separator {
+         width: 5rem;
+         height: 6px;
+         border-radius: 1rem;
+         }
+      </style>
    </head>
    <body>
       <!-- Abid Section -->
@@ -23,6 +32,7 @@
                <div class="navbar-nav">
                   <a class="nav-link active" aria-current="page" href="#">Home</a>
                   <a class="nav-link" href="#">Features</a>
+                  <a class="nav-link" href="#facilities">Facilities</a>
                   <a class="nav-link" href="#">Album</a>
                   <a class="nav-link" href="#">Contact Us</a>
                </div>
@@ -37,90 +47,95 @@
                <a class="btn btn-outline-secondary" href="#">Let me know</a>
             </div>
          </div>
-
          <!-- Container -->
          <div class="container">
-                     <!-- Delon Section -->
-
-         <!-- Michael Section -->   
-        <div class="row">
-            <div class="col-lg-4">
-            <h2>Location</h2>
-            <p>Bertholdt Hotel are located around Indonesia and is always close to one of Indonesia's Tourist attraction.</p>
-            </div>
-            <div class="col-lg-4">
-            <h2>Room Type</h2>
-            <p>Bertholdt Hotel provides 3 room types : Single room, Double room and Family room</p>
-            </div>
-            <div class="col-lg-4">
-            <h2>Hotel Facilities</h2>
-            <p>Bertholdt hotel has a lot of facilities such as Conference facilities, Gym, Restaurant, Sauna, Swimming pool, Business center, and parking facilities</p>
-            </div>
-            </div>
-            <h2><center>Room Facilities</center></h2>
-            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-           <div class="col">
-            <div class="card mb-4 shadow-sm">
-               <div class="card-header">
-                <h4 class="my-0 fw-normal">Single Room</h4>
+            <!-- Delon Section -->
+            <!-- Michael Section -->   
+            <div class="row">
+               <div class="col-lg-4">
+                  <h2>Location</h2>
+                  <p>Bertholdt Hotel are located around Indonesia and is always close to one of Indonesia's Tourist attraction.</p>
                </div>
-               <div class="card-body">
-                <h1 class="card-title pricing-card-title">Rp256.000 <small class="text-muted">/ night</small></h1>
-                <ul class="list-unstyled mt-3 mb-4">
-                       <li>Single bed</li>
-                       <li>Air conditioner</li>
-                       <li>Desk</li>
-                       <li>Television</li>
-                       <li>Shower / Batbtub</li>
-                       <li>Mini bar</li>
-                </ul>
-                <button type="button" class="w-100 btn btn-lg btn-primary">Reserve now</button>
-                </div>
+               <div class="col-lg-4">
+                  <h2>Room Type</h2>
+                  <p>Bertholdt Hotel provides 3 room types : Single room, Double room and Family room</p>
+               </div>
+               <div class="col-lg-4">
+                  <h2>Hotel Facilities</h2>
+                  <p>Bertholdt hotel has a lot of facilities such as Conference facilities, Gym, Restaurant, Sauna, Swimming pool, Business center, and parking facilities</p>
+               </div>
             </div>
-            </div>
-                <div class="col">
-            <div class="card mb-4 shadow-sm">
-                 <div class="card-header">
-                  <h4 class="my-0 fw-normal">Double Room</h4>
-                 </div>
-                 <div class="card-body">
-                              <h1 class="card-title pricing-card-title">Rp276.000 <small class="text-muted">/ night</small></h1>
-                              <ul class="list-unstyled mt-3 mb-4">
-                       <li>Double sized bed / Two single bed</li>
-                       <li>Air conditioner</li>
-                       <li>Desk</li>
-                       <li>Television</li>
-                       <li>Shower & Bathtub</li>
-                       <li>Mini bar</li>
-                              </ul>
-                  <button type="button" class="w-100 btn btn-lg btn-primary">Reserve now</button>
-                 </div>
-            </div>
-            </div>
-                <div class="col">
-             <div class="card mb-4 shadow-sm">
-                  <div class="card-header">
-                   <h4 class="my-0 fw-normal">Family Room</h4>
+            <h2>
+               <center>Room Facilities</center>
+            </h2>
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center" id="facilities">
+               <div class="col">
+                  <div class="card rounded shadow-sm border-0">
+                     <div class="card-body p-0">
+                        <img src="./assets/img/single.jpg" alt="" class="img-fluid d-block mx-auto mb-3">
+                        <div class="p-3">
+                           <h4 class="my-0 fw-normal">Single Room</h4>
+                           <h1 class="card-title pricing-card-title">Rp256.000 <small class="text-muted">/ night</small></h1>
+                           <div class="custom-separator my-4 mx-auto bg-primary"></div>
+                           <ul class="list-unstyled mt-3 mb-4">
+                              <li><i class="fa fa-check mr-2 text-primary"></i> Single bed</li>
+                              <li><i class="fa fa-check mr-2 text-primary"></i> Air conditioner</li>
+                              <li><i class="fa fa-check mr-2 text-primary"></i> Desk</li>
+                              <li><i class="fa fa-check mr-2 text-primary"></i> Television</li>
+                              <li><i class="fa fa-check mr-2 text-primary"></i> Shower / Batbtub</li>
+                              <li><i class="fa fa-check mr-2 text-primary"></i> Mini bar</li>
+                           </ul>
+                           <button type="button" class="w-100 btn btn-primary btn-block p-2 shadow rounded-pill">Reserve now</button>
+                        </div>
+                     </div>
                   </div>
-                  <div class="card-body">
-                                <h1 class="card-title pricing-card-title">Rp326.000 <small class="text-muted">/ night</small></h1>
-                                <ul class="list-unstyled mt-3 mb-4">
-                       <li>1 Double sized bed & 2 single bed</li>
-                       <li>Air conditioner</li>
-                       <li>Desk & Sitting area</li>
-                       <li>Television</li>
-                       <li>Shower & Bathtub</li>
-                       <li>Mini bar</li>
-                                </ul>
-                                <button type="button" class="w-100 btn btn-lg btn-primary">Reserve now</button>
+               </div>
+               <div class="col">
+                  <div class="card rounded shadow-sm border-0">
+                     <div class="card-body p-0">
+                        <img src="./assets/img/double.jpg" alt="" class="img-fluid d-block mx-auto mb-3">
+                        <div class="p-3">
+                           <h4 class="my-0 fw-normal">Double Room</h4>
+                           <h1 class="card-title pricing-card-title">Rp276.000 <small class="text-muted">/ night</small></h1>
+                           <div class="custom-separator my-4 mx-auto bg-primary"></div>
+                           <ul class="list-unstyled mt-3 mb-4">
+                              <li><i class="fa fa-check mr-2 text-primary"></i> Double sized bed / Two single bed</li>
+                              <li><i class="fa fa-check mr-2 text-primary"></i> Air conditioner</li>
+                              <li><i class="fa fa-check mr-2 text-primary"></i> Desk</li>
+                              <li><i class="fa fa-check mr-2 text-primary"></i> Television</li>
+                              <li><i class="fa fa-check mr-2 text-primary"></i> Shower & Bathtub</li>
+                              <li><i class="fa fa-check mr-2 text-primary"></i> Mini bar</li>
+                           </ul>
+                           <button type="button" class="w-100 btn btn-primary btn-block p-2 shadow rounded-pill">Reserve now</button>
+                        </div>
+                     </div>
                   </div>
-             </div>
-             </div>
+               </div>
+               <div class="col">
+                  <div class="card rounded shadow-sm border-0">
+                     <div class="card-body p-0">
+                        <img src="./assets/img/family.jpg" alt="" class="img-fluid d-block mx-auto mb-3">
+                        <div class="p-3">
+                           <h4 class="my-0 fw-normal">Family Room</h4>
+                           <h1 class="card-title pricing-card-title">Rp326.000 <small class="text-muted">/ night</small></h1>
+                           <div class="custom-separator my-4 mx-auto bg-primary"></div>
+                           <ul class="list-unstyled mt-3 mb-4">
+                              <li><i class="fa fa-check mr-2 text-primary"></i> 1 Double sized bed & 2 single bed</li>
+                              <li><i class="fa fa-check mr-2 text-primary"></i> Air conditioner</li>
+                              <li><i class="fa fa-check mr-2 text-primary"></i> Desk & Sitting area</li>
+                              <li><i class="fa fa-check mr-2 text-primary"></i> Television</li>
+                              <li><i class="fa fa-check mr-2 text-primary"></i> Shower & Bathtub</li>
+                              <li><i class="fa fa-check mr-2 text-primary"></i> Mini bar</li>
+                           </ul>
+                           <button type="button" class="w-100 btn btn-primary btn-block p-2 shadow rounded-pill">Reserve now</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
             </div>
          </div>
       </main>
       <!-- Ardi Section -->
-
       <footer>
       </footer>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
